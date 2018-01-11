@@ -1,0 +1,24 @@
+.MyLightbox {
+  background-color: gray;
+  display: block;
+  overflow: hidden;
+  height: 700px;
+  width: 100%;
+}
+
+.LightboxImage {
+  display: inline;
+  position: absolute;
+  float: left;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.ScrollPanel {
+  display: block;
+  position: relative;
+}
